@@ -1,0 +1,10 @@
+@ActCourse.Backend_HostAddress = http://localhost:5257
+
+GET {{ActCourse.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{ActCourse.Backend_HostAddress}}/api/categories
+
+###
